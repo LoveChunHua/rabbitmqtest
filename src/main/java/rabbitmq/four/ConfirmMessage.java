@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentSkipListMap;
 public class ConfirmMessage {
     public static void main(String[] args) throws Exception {
 //        ConfirmMessage.publishIndividually();
-//        ConfirmMessage.publishBatch();
+        ConfirmMessage.publishBatch();
         ConfirmMessage.publishAsync();
     }
 
